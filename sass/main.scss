@@ -1,4 +1,11 @@
 @import"./utils/visually-hidden";
+@import "./utils/variables";
 @import "./base/common";
 @import "./base/container";
-@import "./base/section"
+@import "./base/section";
+@import "./component/logo";
+@import "./component/buttons";
+@import "./layout/menu";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
