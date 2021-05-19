@@ -1,0 +1,24 @@
+  .ourclient-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ourclient-list-item:hover,
+  .ourclient-list-item:focus {
+    fill: var(--main-color);
+    border-color: var(--main-color);
+  }
+  .ourclient-list-item {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: var(--svg-colour);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .ourclient-icons {
+    width: 106px;
+    min-height: 60px;
+    margin-left: 32px;
+  }

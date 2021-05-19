@@ -1,0 +1,36 @@
+.whatwedo {
+    padding-bottom: 94px;
+  }
+  .whatwedo-list {
+    display: flex;
+  }
+  
+  .whatwedo-list-item:not(:last-child),
+  .ourteam-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .whatwedo-list-item {
+    position: relative;
+  }
+  .whatwedo-list-item > .whatwedo-list-about {
+    position: absolute;
+    bottom: 0px;
+    left: -50%;
+    right: 50%;
+    transform: translate(50%, 0%);
+    margin: 0 auto;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  .whatwedo-list-about {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+  }

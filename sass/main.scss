@@ -1,11 +1,25 @@
+
 @import"./utils/visually-hidden";
 @import "./utils/variables";
+
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
+
+@import "./component/backdrop";
+@import "./component/modal";
 @import "./component/logo";
 @import "./component/buttons";
+@import "./component/title";
+@import "./component/secondary-title";
+@import "./component/social-links";
+@import "./component/social-list";
+
+
 @import "./layout/menu";
 @import "./layout/header";
-@import "./layout/main";
+@import "./layout/strengths";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/our-client";
 @import "./layout/footer";
