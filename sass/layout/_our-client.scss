@@ -2,11 +2,6 @@
     display: flex;
     justify-content: space-between;
   }
-  .ourclient-list-item:hover,
-  .ourclient-list-item:focus {
-    fill: var(--main-color);
-    border-color: var(--main-color);
-  }
   .ourclient-list-item {
     display: flex;
     width: 170px;
@@ -16,6 +11,11 @@
     fill: var(--svg-colour);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        fill: var(--main-color);
+        border-color: var(--main-color);
+    }
   }
   .ourclient-icons {
     width: 106px;
