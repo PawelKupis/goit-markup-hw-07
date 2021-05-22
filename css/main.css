@@ -74,6 +74,10 @@ input {
   padding-bottom: 94px;
 }
 
+.hero.section {
+  padding: 0;
+}
+
 .backdrop {
   position: fixed;
   left: 0px;
@@ -457,8 +461,6 @@ input {
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1600px;
-  margin: 0 auto;
 }
 
 .container .hero__container {
