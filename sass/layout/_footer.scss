@@ -5,21 +5,21 @@
     min-width: 246px;
   }
   
-  .address-list-item:not(:last-child) {
+  .address__list:not(:last-child) {
     margin-bottom: 9px;
   }
-  .address-list-link {
-    font-style: normal;
-    font-weight: normal;
+  .address__link {
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    color: $opacity-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      &:hover,
-      &:focus {
-      color: $main-color;
-      }
+    
+    &:hover,
+    &:focus {
+      color: $blue-color;
+    }
   }
   a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
   {
@@ -27,10 +27,10 @@
   }
   
   
-  .right-footer {
+  .footer__social {
     padding-left: 70px;
   }
-  .social-title {
+  .footer__social-title {
     padding-bottom: 20px;
     font-size: 14px;
     line-height: 1.143;
@@ -90,4 +90,35 @@
     height: 24px;
     margin: 0 auto;
     background-image: url(../images/vectors/vectorsend.svg);
+  }
+
+  .newsletter {
+    margin-left: 70px;
+  }
+  .newsletter__label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+  .newsletter__wrapper {
+    display: flex;
+  }
+  .newsletter__icon {
+    margin: auto;
+  }
+  .newsletter__email {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 0 0 0 16px;
+    outline: none;
   }
