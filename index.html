@@ -413,7 +413,7 @@
                     <!-- join-us -->
             <div class="join-us">
                 <h5 class="join-us__title">Dołącz do nas</h5>
-                    <ul class="social join-us__social">
+                <ul class="social join-us__social">
                     <li class="social__item join-us__item">
                       <a class="social__link join-us__link" href="#">
                         <svg class="social__icon">
@@ -443,9 +443,9 @@
                       </a>
                     </li>
                   </ul>
-              </div> <!-- END join-us -->
-
-                <!-- newsletter -->
+            </div> 
+              <!-- END join-us -->
+            <!-- newsletter -->
             <div class="newsletter">
                 <form class="newsletter__form">
                 <label class="newsletter__label">
@@ -464,13 +464,15 @@
             <!-- END newsletter -->
         </div>
     </footer>
+    <!-- Backdrop  -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>
+            <button class="close-btn" type="button" data-modal-close>
                 <svg class="close-btn-vector">
                     <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
             </button>
+        <!-- form -->
             <form class="modal-form" name="signup_form" action="" method="POST" autocomplete="on" novalidate>
                 <h3 class="modal-form-title">Zostaw swoje dane w formularzu poniżej</h3>
                 <label class="modal-label" for="name" required> Imie</label>
