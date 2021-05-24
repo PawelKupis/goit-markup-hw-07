@@ -102,10 +102,6 @@ input {
   background-color: #f5f4fa;
 }
 
-.hero.section {
-  padding: 0;
-}
-
 .backdrop {
   position: fixed;
   left: 0px;
