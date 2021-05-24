@@ -1,43 +1,22 @@
-.strengths .container {
-    display: block;
-  }
-  .strengths-list,
-  .strengths-list-icons {
-    display: flex;
-  }
-  .strengths-list-icons .strengths-list-icons-item {
-    display: flex;
-  }
-  
-  .strengths-item:not(:last-child),
-  .strengths-list-icons-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  .strengths-list-icons-item {
+.article {
+  display: flex;
+
+  &__icon {
     width: 270px;
     height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f5f4fa;
     border-radius: 4px;
   }
-  .strengthsicons {
-    width: 70px;
-    min-height: 70px;
-    margin-left: 100px;
-  }
-  
-  .strengths-title {
-    margin-bottom: 10px;
-    width: 270px;
+  &__text {
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    color: $gray-color;
+    margin-top: 10px;
   }
-  .strengths-about {
-    width: 270px;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--description);
+  &__item:not(:last-child) {
+    margin-right: 30px;
   }
+}

@@ -1,13 +1,29 @@
-.whatwedo-title,
-.ourteam-title,
-.ourclient-title {
+.article__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.section-title {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
   }
-
+  .offer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+    color: $white-color;
+  }
   .join-us__title {
     font-weight: 700;
     font-size: 14px;
