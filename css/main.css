@@ -736,18 +736,12 @@ form {
   line-height: 20px;
 }
 
-.newsletter__email:focus {
+.newsletter__email,
+select,
+::placeholder {
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
-}
-
-.newsletter__email .textarea {
-  color: #ffffff;
-}
-
-input {
-  direction: none;
 }
 
 .filters {
