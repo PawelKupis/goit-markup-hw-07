@@ -70,4 +70,21 @@
     background-color: transparent;
     padding: 0 0 0 16px;
     outline: none;
+    &::placeholder{
+    color: $opacity-color;
+    font-size: 16px;
+    line-height: 20px;
+    }
+     &:focus {
+     color: $white-color;
+     font-size: 16px;
+    line-height: 20px;
+     }
+     
   }
+  // input{
+  //   & .textarea {
+  //       color: $white-color;
+  //   }
+  // }
+   

@@ -730,6 +730,26 @@ form {
   outline: none;
 }
 
+.newsletter__email::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.newsletter__email:focus {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.newsletter__email .textarea {
+  color: #ffffff;
+}
+
+input {
+  direction: none;
+}
+
 .filters {
   display: flex;
   justify-content: space-between;
